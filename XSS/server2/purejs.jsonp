@@ -1,0 +1,8 @@
+<?php
+header('Content-Type: text/javascript');
+$data = json_encode(['msg'=>'True data from external domain.']);
+
+$func = $_GET['func'];
+
+$res = "function {$func}(){return $data;}";
+

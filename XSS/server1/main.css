@@ -1,0 +1,9 @@
+div.content{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #888;
+}
+div.conteiner{
+   border: 1px solid #eee;
+   margin: 20px;
+}
